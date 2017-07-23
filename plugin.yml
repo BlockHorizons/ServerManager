@@ -1,0 +1,7 @@
+---
+name: ServerManager
+version: 1.0.0
+api: [3.0.0-ALPHA5, 3.0.0-ALPHA6]
+main: BlockHorizons\ServerManager\ServerManager
+author: BlockHorizons
+...

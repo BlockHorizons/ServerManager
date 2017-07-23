@@ -1,0 +1,19 @@
+# If you are enable to connect to this server (kicked or something), then connect to
+# the one specified in `fallback-server`
+force-fallback-server: true
+
+# Fallback to the following server if for some reason you can't connect to this one.
+# Will only work if this server is online still (confusing, i know)
+fallback-server: play.myserver.com:19132
+
+# Override the /transfer command and ping the server before transfering.
+override-transfer: true
+
+# Servers to show up in the /server command.
+servers:
+  factions: 
+    address: play.myserver.com:19132
+    restricted: false
+  otherserver:
+    address: hey.com
+    restricted: true
