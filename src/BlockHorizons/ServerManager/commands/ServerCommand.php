@@ -8,7 +8,7 @@ use BlockHorizons\ServerManager\ServerManager;
 
 class BaseCommand extends BaseCommand {
 	
-	public functionn __construct(ServerManager $plugin) {
+	public function __construct(ServerManager $plugin) {
 		parent::__construct($plugin, "server", "List or transfer to a server.", "/server [name]", ["servers"]);
 	}
 	
